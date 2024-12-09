@@ -1,5 +1,18 @@
 const games = [
     {
+        year: 2008,
+        title: "Grand Theft Auto IV",
+        description: "A gritty, open-world game set in Liberty City, known for its deep storytelling and immersive world.",
+        funFact: "The game introduced a more realistic and mature storyline, winning over 30 Game of the Year awards."
+      },
+      {
+        year: 2009,
+        title: "Uncharted 2: Among Thieves",
+        description: "An action-adventure game where treasure hunter Nathan Drake explores ancient ruins and uncovers secrets.",
+        funFact: "The game raised the bar for cinematic action in games, with motion capture and voice acting that rivaled Hollywood productions."
+      },
+
+    {
       year: 2010,
       title: "Red Dead Redemption",
       description: "A Western-themed action-adventure that redefined open-world gaming.",
