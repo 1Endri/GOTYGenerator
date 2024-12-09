@@ -1,0 +1,59 @@
+Game of the Year Generator
+Experience a blast from the past with our randomized GOTY selector!
+
+Random Output Example
+Game of the Year (2012):
+"The Walking Dead"
+
+Description: A narrative-driven, episodic adventure game where your choices matter. Immerse yourself in a gripping story set in a zombie apocalypse.
+Fun Fact: This game popularized episodic storytelling in gaming and won over 90 Game of the Year awards!
+
+Game of the Year (2015):
+"The Witcher 3: Wild Hunt"
+
+Description: A sprawling open-world RPG filled with quests, complex characters, and breathtaking landscapes. Follow Geralt of Rivia as he hunts down the Wild Hunt and searches for Ciri.
+Fun Fact: Did you know it took over three years and 1,500 developers to complete this masterpiece?
+
+How It Works
+
+When the program runs, it selects:
+
+A random year between 2010 and 2015.
+A corresponding Game of the Year for that year.
+A description of the game.
+A fun fact about the game.
+Each element is stored in arrays or objects in JavaScript, ensuring randomized but relevant results.
+
+Example Code Skeleton
+
+javascript
+
+// Data storage
+const games = [
+  {
+    year: 2010,
+    title: "Red Dead Redemption",
+    description: "A Western-themed action-adventure that redefined open-world gaming.",
+    funFact: "John Marston became one of the most iconic characters in gaming history."
+  },
+  {
+    year: 2011,
+    title: "The Elder Scrolls V: Skyrim",
+    description: "An open-world fantasy RPG with dragons, epic quests, and modding galore.",
+    funFact: "Skyrim is one of the most modded games ever, with over 60,000 mods available."
+  },
+  // Add games from 2012-2015
+];
+
+// Randomizer
+const getRandomGame = () => {
+  const randomIndex = Math.floor(Math.random() * games.length);
+  return games[randomIndex];
+};
+
+// Output
+const game = getRandomGame();
+console.log(`Game of the Year (${game.year}):`);
+console.log(`"${game.title}"`);
+console.log(`> Description: ${game.description}`);
+console.log(`> Fun Fact: ${game.funFact}`);

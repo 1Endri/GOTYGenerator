@@ -1,0 +1,13 @@
+{
+    "name": "gotygenerator",
+    "version": "1.0.0",
+    "description": "A random Game of the Year generator.",
+    "main": "gameGenerator.js",
+    "scripts": {
+      "start": "node gameGenerator.js"
+    },
+    "keywords": ["game", "generator", "goty"],
+    "author": "Endri Shameti",
+    "license": "MIT"
+  }
+  
